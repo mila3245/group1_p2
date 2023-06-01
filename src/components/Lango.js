@@ -7,16 +7,34 @@ import SearchForm from "./SearchForm";
 import MovieDetail from "./MovieDetail";
 import API from "../utils/API";
 
-class OmdbContainer extends Component {
+class Lango extends Component {
   state = {
     result: {},
-    search: ""
+    search: "",
+    inputLang: "",
+    outputLang: ""
   };
 
-  searchMovies = query => {
-    API.search(query)
-      .then(res => this.setState({ result: res.data }))
+ translateText = (search, inputLang, outputLang) => {
+    API.translate(search, inputLang, outputLang)
+      .then(res => {
+        this.setState({ result: res.data })
+      })
       .catch(err => console.log(err));
+  };
+
+  handleInputChange = event => {
+    const value = event.target.value;
+    const name = event.target.name;
+    this.setState({
+      [name]: value
+    });
+  };
+
+  // When the form is submitted, search the OMDB API for the value of `this.state.search`
+  handleFormSubmit = event => {
+    event.preventDefault();
+    this.translateText(this.state.search, this.state.inputLang, this.state.outputLang);
   };
 
   render() {
@@ -51,4 +69,4 @@ class OmdbContainer extends Component {
   }
 }
 
-export default OmdbContainer;
+export default Lango;
