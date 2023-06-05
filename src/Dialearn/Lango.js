@@ -4,7 +4,6 @@ import Row from "../Resources/Row";
 import Col from "../Resources/Col";
 import Card from "../Resources/Card";
 import SearchForm from "../Resources/SearchForm";
-import MovieDetail from "../Resources/MovieDetail";
 import API from "./API KEYS/API";
 
 class Lango extends Component {
