@@ -26,9 +26,29 @@ export default {
 
   try {
     const response = await axios.request(options);
-    console.log(response.data);
+    return response.data;
   } catch (error) {
     console.error(error);
   }
+},
+languages: async function(){
+
+const options = {
+  method: 'GET',
+  url: 'https://google-translate1.p.rapidapi.com/language/translate/v2/languages',
+  params: {target: 'en'},
+  headers: {
+    'Accept-Encoding': 'application/gzip',
+    'X-RapidAPI-Key': '3e0b533a33msh1ad8f1b28f820f1p161af0jsn4493186216de',
+    'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
+  }
+};
+
+try {
+	const response = await axios.request(options);
+	return response.data
+} catch (error) {
+	console.error(error);
 }
+} 
 };
