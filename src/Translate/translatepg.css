@@ -1,0 +1,17 @@
+.field {
+    background: rgb(28, 28, 30);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding:5%;
+    border:5%;
+    border-radius: 25px;
+}
+.button {
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+border: 5%;
+border-radius: 25px;
+padding:5px;
+
+}
