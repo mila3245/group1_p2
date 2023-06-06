@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import Container from "../Resources/Container";
-import Row from "../Resources/Row";
-import Col from "../Resources/Col";
-import Card from "../Resources/Card";
-import SearchForm from "../Resources/SearchForm";
-import API from "./API KEYS/API";
+import Container from "./Resources/Container";
+import Row from "./Resources/Row";
+import Col from "./Resources/Col";
+import Card from "./Resources/Card";
+import SearchForm from "./Resources/SearchForm";
+import MovieDetail from "./Resources/MovieDetail"
+import API from "./API KEYS/Gtranslate";
 
 class Lango extends Component {
   state = {
