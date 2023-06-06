@@ -48,7 +48,7 @@ class Lango extends Component {
 
   render() {
     return (
-      <Container>
+      <Container className="display is-flex">
         <Row>
           <Col size="6">
           <div className="field">
