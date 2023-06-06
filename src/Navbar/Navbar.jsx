@@ -18,43 +18,37 @@ return (
 
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item">
-        Home
+      <a class="navbar-item1">
+        DIALEARN
       </a>
-
-      <a class="navbar-item">
-        Documentation
+      </div>
+      
+    <div class="navbar-end">
+      <div class="navbar-item">
+       
+      <a class="navbar-item2">
+        About
       </a>
-
+      <a class="navbar-item2">
+        Translate
+      </a>
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
+        <a class="navbar-item2">
           More
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
+          <a class="navbar-item3">
+            Tutoring
           </a>
-          <a class="navbar-item">
-            Jobs
+          <a class="navbar-item3">
+            Connect with Dialearners
           </a>
-          <a class="navbar-item">
+          <a class="navbar-item3">
             Contact
           </a>
         </div>
       </div>
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
-        </div>
       </div>
     </div>
   </div>

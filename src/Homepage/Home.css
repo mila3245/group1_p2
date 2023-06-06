@@ -1,8 +1,109 @@
 /* Styling */
 
-* {
-margin: 0;
-color:bisque;
+* 
+#home{
+    
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkviolet;
+    background: linear-gradient(to bottom right, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+section{
+    height: 80vh;
+}
+
+.home-tag {
+
+    font-size: 30px;
+    text-align:center;
+    width: 450px;
+    position:inherit;
+    bottom: 100px;
+    left: 840px;
+    color: black;
+    font-weight: bolder;
+    
+   
+    
+
+}
+
+#parent{
+color:black;
+font-weight: bold;
+position:absolute;
+top: 10px;
+padding-right: 2vh;
+left: 35px;
+
+}
 
 
+.button-element{
+    position:absolute;
+    left: 120vh;
+    bottom: 8vh;
+    padding: 20px;
+    font-size: 1rem;
+}
+ .button-1 {
+        border-radius: 40px;
+        background-color:#8120dc;
+        border-color: white;
+        width: 40vh;
+        font-weight:bolder;
+        color: white
+     }
+
+     .button-element2{
+        position:relative;
+        left: 125vh;
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+     .button-2 {
+        border-radius: 40px;
+        background-color:#8a2be2;
+        border-color: white;
+        width: 30vh;
+        font-weight:bolder;
+        color: white
+     }
+
+     .button-1:hover {
+        background-color: #8a2be2;
+        color:white;
+    }
+    
+
+
+.pic1 {
+    position:relative;
+    padding-left: 45vh;
+    padding-top: 10vh;
+    bottom:2vh;
+    
+}
+
+.pic2 {
+   
+    position:absolute;
+    padding-left: 85vh;
+    top: 48vh;   
+}
+
+.pic3 {
+    position:relative;
+    bottom: 30vh;    
+}
+
+.pic4 {
+    position:inherit;
+    bottom: 92vh;  
+    width: 26vh; 
+    padding-right:18px;
+    left: 1vh;
 }

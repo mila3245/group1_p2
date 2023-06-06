@@ -1,4 +1,4 @@
-import FooterImage from "../Images/langlearn1.png";
+import FooterImage from "../images/langlearn1.png";
 import React from 'react';
 import Card from '../Resources/Card';
 import data from "./data";

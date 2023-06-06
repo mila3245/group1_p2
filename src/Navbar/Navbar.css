@@ -1,15 +1,52 @@
-nav {
+#navmenu {
     align-items: center;
     display:flex;
 }
 
-#navbar{
+.navbar{
     display:flex;
     justify-content:center;
+    height: 10vh;
+    font-weight: bolder;
+    
 }
 
-#navbar li{
+#navbar-menu{
     padding: 0 18px;
     position:relative;
+   
+}
+.navbar-item1{
+font-size: 26px;
+padding-top: 22px;
+padding-left: 25px;
+letter-spacing: 1px;
+color:rgb(113, 19, 237);
+
+}
+
+.navbar-item2{
+    font-size: 18px;
+    padding-right: 75px;
+    color:rgb(113, 19, 237);
+    }
+
+.navbar-item3 {
+    color:rgb(113, 19, 237);
+    font-size: 17px;
+    display:flex;
+    padding-top: 8px;
+}
+
     
+.navbar-item1:hover{
+    color:cornflowerblue;
+}
+
+.navbar-item2:hover{
+    color:cornflowerblue;
+}
+
+.navbar-item3:hover{
+    color:cornflowerblue;
 }
