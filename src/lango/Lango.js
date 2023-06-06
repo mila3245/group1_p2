@@ -51,45 +51,43 @@ class Lango extends Component {
       <Container>
         <Row>
           <Col size="6">
-          <div class="field">
-            <label class="label">Input Language</label>
-            <div class="control">
-              <div class="select">
+          <div className="field">
+            <label className="label">Input Language</label>
+            <div className="control">
+              <div className="select">
                 <select onChange={this.handleInputChange} name="inputLang" value={this.state.inputLang}>
                   <option>Select Language</option>
                   {this.state.languageOptions.map(({name, language})=>{
                     return (<option value={language}>{name}</option>)
                   })}
                 </select>
-              </div>
-            </div>
-          </div>
-          </Col>
-          <Col size="6">
-          <div class="field">
-            <label class="label">Output Language</label>
-            <div class="control">
-              <div class="select">
-              <select onChange={this.handleInputChange} name="outputLang" value={this.state.outputLang}>
+                <label className="label">Output Language</label>
+                <select onChange={this.handleInputChange} name="outputLang" value={this.state.outputLang}>
                   <option>Select Language</option>
                   {this.state.languageOptions.map(({name, language})=>{
                     return (<option value={language}>{name}</option>)
                   })}
                 </select>
+                <textarea className="textarea" placeholder="enter text"
+        name="search" value={this.state.search} onChange={this.handleInputChange}></textarea>
+         <textarea className="textarea" placeholder="~" disabled={true}
+        name="search" value={this.state.result} ></textarea>
+        <Row>
+        <button className="button" onClick={this.handleFormSubmit}>Button</button>
+        </Row>
               </div>
             </div>
           </div>
           </Col>
+         
         </Row>
-        <Row>
+     {/*    <Row>
         <textarea class="textarea" placeholder="enter text"
         name="search" value={this.state.search} onChange={this.handleInputChange}></textarea>
          <textarea class="textarea" placeholder="~" disabled={true}
         name="search" value={this.state.result} ></textarea>
-        </Row>
-        <Row>
-        <button class="button" onClick={this.handleFormSubmit}>Button</button>
-        </Row>
+        </Row> */}
+        
         {}
         {/* <Row>
           <Col size="md-8">
