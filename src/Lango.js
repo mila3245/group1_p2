@@ -3,7 +3,7 @@ import Container from "./Resources/Container";
 import Row from "./Resources/Row";
 import Col from "./Resources/Col";
 import Card from "./Resources/Card";
-// import SearchForm from "./Resources/SearchForm";
+// // import SearchForm from "./Resources/SearchForm";
 // import MovieDetail from "./Resources/MovieDetail"
 import API from "./API KEYS/Gtranslate";
 
@@ -89,12 +89,7 @@ class Lango extends Component {
         <Row>
         <button class="button" onClick={this.handleFormSubmit}>Button</button>
         </Row>
-        {/* <Form.Select aria-label="Default select example">
-          <option>Open this select menu</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
-        </Form.Select> */}
+        {}
         {/* <Row>
           <Col size="md-8">
             <Card
@@ -109,15 +104,7 @@ class Lango extends Component {
               />
             </Card>
           </Col>
-          <Col size="md-4">
-            <Card heading="Search">
-              <SearchForm
-                value={this.state.search}
-                handleInputChange={this.handleInputChange}
-                handleFormSubmit={this.handleFormSubmit}
-              />
-            </Card>
-          </Col>
+          
         </Row> */}
       </Container>
     );
