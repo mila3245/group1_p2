@@ -1,7 +1,6 @@
 import React from "react";
-import Lango from "./Lango";
+import Lango from "./lango/Lango";
 import Footer from "./Footer/Footer";
-import Translate from "./Translate/translatepg";
 import About from "./About page/About";
 import Navbar from "./Navbar/Navbar";
 import Homepage from "./Homepage/homepage"
@@ -12,7 +11,6 @@ const App=()=>{
     <Navbar/>
     <Homepage/>
     <Lango/>
-    <Translate/>
     <About/>
     <Footer/>
     </main>
