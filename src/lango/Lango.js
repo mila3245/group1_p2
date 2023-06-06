@@ -103,6 +103,8 @@ class Lango extends Component {
               />
             </Card>
           </Col>
+
+          class upslash 
           
         </Row> */}
       </Container>
