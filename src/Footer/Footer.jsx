@@ -16,7 +16,7 @@ import {
 const Footer = () => {
   return (
     <Box>
-      <h1 style={{ color: "white", textAlign: "center", marginTop: auto }}>
+      <h1 style={{ color: "white", textAlign: "center" }}>
         Dialearn: A language learning portal for everyone
       </h1>
       <Container>
