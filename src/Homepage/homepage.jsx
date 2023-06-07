@@ -6,21 +6,21 @@ function Homepage ()
 {
 return (
 <section id="home">
-  <div class="container">
+  <div className="container">
 
-  <div class="pic1">
+  <div className="pic1">
        <img src="/images/friends.png" alt= "friends-talking"/>
        </div>
 
-       <div class="pic2">
+       <div className="pic2">
        <img src="/images/guyhi.png" alt= "guy-hi"/>
        </div>
 
-       <div class="pic3">
+       <div className="pic3">
        <img src="/images/study.png" alt= "girl-laptop"/>
        </div>
 
-       <div class="pic4">
+       <div className="pic4">
        <img src="/images/speechbub.png" alt= "speech-bubble"/>
        
        <div id="parent">
@@ -29,19 +29,19 @@ return (
 
   </div>
    
-<div class="home-tag">
+<div className="home-tag">
   <h1>Learning a language the fun way</h1>
   <h2>and getting connected on the go!</h2>
 </div>
 
-  <div class="button-element">
+  <div className="button-element">
 
-<a href="#" class="button button-1">Get Started</a>
+<a href="#" className="button button-1">Get Started</a>
 </div>
 
-<div class="button-element2">
+<div className="button-element2">
 
-<a href="#" class="button button-2">login</a>
+<a href="#" className="button button-2">login</a>
 </div>
        </div>
 
