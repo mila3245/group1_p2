@@ -1,4 +1,4 @@
-.card {
+/* .card {
     background:var(--color-Yellow);
     padding: 1.5rem;
     border: 2px solid transparent;
@@ -16,10 +16,10 @@
 .card:hover.light {
     background: var(--color-light);
     border-color: var(--color-light);
-}
+}/* 
 /*Media querries*/
 @media screen and (min-width: 768px) {
     .card {
         padding: 2rem;
     }
-}
+} 

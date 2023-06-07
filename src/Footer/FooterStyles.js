@@ -1,5 +1,95 @@
-.card {
-    background: var(color-white);
+import styled from 'styled-components';
+ 
+export const Box = styled.div`
+  padding: 80px 60px;
+  background:#3a0999;
+  position: flex;
+     
+   
+  @media (max-width: 1000px) {
+    padding: 70px 30px;
+  }
+`;
+   
+export const Container = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* background: red; */
+`
+   
+export const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 60px;
+`;
+   
+export const Row = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 
+                         minmax(185px, 1fr));
+  grid-gap: 20px;
+   
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(auto-fill, 
+                           minmax(200px, 1fr));
+  }
+`;
+   
+export const FooterLink = styled.a`
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-decoration: none;
+   
+  &:hover {
+      color: #39DBDB;
+      transition: 200ms ease-in;
+  }
+`;
+   
+export const Heading = styled.p`
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-top: 20px
+  `;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .card {
+    background-color: darkviolet;
+    background: linear-gradient(to bottom right, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     padding: 1.5rem;
     border: 2px solid transparent;
     transition: var(--transition);
@@ -19,7 +109,7 @@
 
 /* Media Queries (phones */
     
-
+/* 
 .about__container {
     display: grid;
     grid-template-columns: 35% 53%;
@@ -85,3 +175,4 @@
 
 
     
+ */ 
