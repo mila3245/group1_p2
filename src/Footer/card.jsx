@@ -1,4 +1,4 @@
-import './card.css';
+/* import './card.css';
 
 
 const Card = ({ children, className, onClick }) => {
@@ -11,3 +11,4 @@ const Card = ({ children, className, onClick }) => {
 }
      export default Card
 
+ */
