@@ -11,7 +11,7 @@ import {
   FooterLink,
   Heading,
 } from "./FooterStyles";
-import { auto } from "@popperjs/core";
+//import { auto } from "@popperjs/core";
 
 const Footer = () => {
   return (
