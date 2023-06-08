@@ -4,6 +4,8 @@ export const Box = styled.div`
   padding: 80px 60px;
   background:#3a0999;
   position: flex;
+  bottom:0;
+  width: 100%;
      
    
   @media (max-width: 1000px) {
@@ -16,6 +18,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     max-width: 1000px;
+    margin: 0 auto;
        /* background: red; */
 `
    
@@ -43,6 +46,7 @@ export const FooterLink = styled.a`
   margin-bottom: 20px;
   font-size: 20px;
   text-decoration: none;
+  
    
   &:hover {
       color: #39DBDB;
@@ -56,6 +60,7 @@ export const Heading = styled.p`
   margin-bottom: 20px;
   font-weight: bold;
   margin-top: 20px
+
   `;
   
 

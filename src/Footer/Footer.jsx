@@ -17,11 +17,9 @@ const Footer = () => {
   return (
     <Box>
       <h1 style={{ color: "white", textAlign: "center" }}>
-        Dialearn: A language learning portal for everyone
+        Dialearn: A great place to learn language
       </h1>
       <Container>
-
-           
         <Row>
           <Column>
             <Heading>About Us</Heading>
@@ -49,30 +47,30 @@ const Footer = () => {
           </Column>
           <Column>
             <Heading>Social Media</Heading>
-            <FooterLink href="#">
+            <FooterLink href="https://github.com/mila3245/group1_p2">
               <i className="Github">
-                <span style={{ marginLeft: "10px" }}>
+                <span style={{ marginLeft: "10px", fontSize: "40px" }}>
                   <ion-icon name="logo-github"></ion-icon>
                 </span>
               </i>
             </FooterLink>
-            <FooterLink href="#">
+            <FooterLink href="https://www.youtube.com/">
               <i className="YouTube">
-                <span style={{ marginLeft: "10px" }}>
+                <span style={{ marginLeft: "10px", fontSize: "40px" }}>
                   <ion-icon name="logo-youtube"></ion-icon>
                 </span>
               </i>
             </FooterLink>
-            <FooterLink href="#">
+            <FooterLink href="https://twitter.com/Ammetu1">
               <i className="twitter">
-                <span style={{ marginLeft: "10px" }}>
+                <span style={{ marginLeft: "10px", fontSize: "40px" }}>
                   <ion-icon name="logo-twitter"></ion-icon>
                 </span>
               </i>
             </FooterLink>
-            <FooterLink href="#">
+            <FooterLink href="https://help.instagram.com/">
               <i className="Instagram">
-                <span style={{ marginLeft: "10px" }}>
+                <span style={{ marginLeft: "10px", fontSize: "40px" }}>
                   <ion-icon name="logo-instagram"></ion-icon>
                 </span>
               </i>
@@ -82,7 +80,6 @@ const Footer = () => {
       </Container>
     </Box>
   );
-
 };
 export default Footer;
 
