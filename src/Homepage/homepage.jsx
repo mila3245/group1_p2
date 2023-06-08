@@ -24,15 +24,15 @@ return (
        <img src="/images/speechbub.png" alt= "speech-bubble"/>
        
        <div id="parent">
-       <h2>Konnichiwa </h2>
+       <p>Konnichiwa </p>
   <h2>こんにちは</h2>
 
   </div>
    
-<div className="home-tag">
-  <h1>Learning a language the fun way</h1>
-  <h2>and getting connected on the go!</h2>
-</div>
+<p className="home-tag">
+  <p>Learning a language the fun way</p>
+  <p>and getting connected on the go!</p>
+</p>
 
   <div className="button-element">
 

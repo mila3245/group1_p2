@@ -1,18 +1,35 @@
 .hero-body {
     background: rgb(63,94,251);
     background: linear-gradient(to bottom right, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-    padding: 10% ;
+    padding: 50% ;
     margin: auto;
-    border-radius: 25px !important;
+    border-radius: 155px !important;
+    height: 30vh;
+    width:160vh;
+    
 }
 
 .title {
-    text-align: center;
-    font-weight: bold;
+    text-align: left;
+    font-weight: bolder;
+    position:relative;
+    bottom:20vh;
     font-size: larger;
+    width:80vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 .subtitle {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    width:100vh;
+    bottom:12vh;
+}
+
+.aboutpic {
+   
+    position:absolute;
+    padding-left: 110vh;
+    top: 145vh;   
 }

@@ -1,6 +1,7 @@
 import "./Navbar.css"
 import "bulma/css/bulma.min.css"
 
+
 function Navbar ()
 {
 return (
