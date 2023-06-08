@@ -59,18 +59,18 @@ class Lango extends Component {
                 <textarea className="textarea" placeholder="Type Text"
         name="search" value={this.state.search} onChange={this.handleInputChange}></textarea>
         <Row>
-        <button className="button" onClick={this.handleFormSubmit}>Translate</button>
+        <button className="buttonl" onClick={this.handleFormSubmit}>Translate</button>
         </Row>
               </div>
               <div className="column is-half select">
               
                 <select onChange={this.handleInputChange} name="outputLang" value={this.state.outputLang}>
-                  <option>-- Translation --</option>
+                  <option>-- Translate to --</option>
                   {this.state.languageOptions.map(({name, language})=>{
                     return (<option value={language}>{name}</option>)
                   })}
                 </select>
-                <textarea className="textarea" placeholder="~" disabled={true}
+                <textarea className="textarea" placeholder="Translation" disabled={true}
         name="search" value={this.state.result} ></textarea>
               </div>
             </div>

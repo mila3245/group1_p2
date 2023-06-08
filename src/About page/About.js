@@ -3,15 +3,15 @@ import "./About.css";
 
 function About() {
     return (
-        <section className="hero is-large is-info">
+        <section className="hero is-large is-info has-background-white">
   <div className="hero-body">
-    <p className="title">
+    <p className="title1">
       An Awesome Learning Journey with DIALEARN
     </p>
 
-    <p className="subtitle">
+    <p className="subtitle1">
         Learning a new language, or traveling with minimal knowledge of the local language, can be a challenge. 
-        But with the right resources, you can transform that challenge into an adventure.
+        But with the right resources, you can transform that challenge into an adventure!
        <br/>
        <br/>
         Learning new language or dialect has never been faster.
@@ -20,7 +20,20 @@ function About() {
     </p>
 
     <div className="aboutpic">
-       <img src="/images/globe.png" alt= "friends-talking"/>
+       <img src="/images/nyc.png" alt= "friends-talking"/>
+       </div>
+
+       <div className="aboutpic2">
+       <img src="/images/geotag.png" alt= "friends-talking"/>
+       </div>
+
+
+       <div className="aboutpic3">
+       <img src="/images/dot.png" alt= "friends-talking"/>
+       </div>
+
+       <div className="aboutpic4">
+       <img src="/images/dot.png" alt= "friends-talking"/>
        </div>
 
   </div>

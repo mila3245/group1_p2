@@ -31,6 +31,7 @@ return (
    
 <p className="home-tag">
   <p>Learning a language the fun way</p>
+  
   <p>and getting connected on the go!</p>
 </p>
 

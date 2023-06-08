@@ -2,19 +2,35 @@
     background: rgb(28, 28, 30);
     text-align: center;
     margin: auto;
-    margin-bottom: 32vh;
+    margin-bottom: 35vh;
     padding:5%;
     border:5%;
     border-radius: 25px;
 };
-.button {
-    background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-border: 5%;
-border-radius: 25px;
-padding:5px;
 
-};
+.inputLang {
+    color:aqua;
+}
+
+.outputLang {
+    color:aquamarine;
+}
+.buttonl {
+    position:absolute;
+    left: 73vh;
+    top: 30vh;
+    padding: 11px;
+    font-size: 1rem;
+    border-radius: 30px;
+        background-color:#8120dc;
+        border-color: rgb(62, 61, 61);
+        width: 30vh;
+        font-weight:bolder;
+        color: white;
+}
+
+
+
 .label {
     color: aliceblue;
 };

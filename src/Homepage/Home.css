@@ -12,6 +12,7 @@
 
 section{
     height: 80vh;
+    padding-bottom:15vh;
 }
 
 .home-tag {
@@ -24,7 +25,7 @@ section{
     bottom: 60px;
     left: 840px;
     color: black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
    
     
