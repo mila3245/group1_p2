@@ -36,8 +36,9 @@
 .aboutpic {
    
     position:absolute;
-    padding-left: 110vh;
-    top: 145vh;   
+    margin-left: 108vh;
+    top: 148vh; 
+    width:95vh;  
     
 }
 

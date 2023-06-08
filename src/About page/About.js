@@ -20,20 +20,20 @@ function About() {
     </p>
 
     <div className="aboutpic">
-       <img src="/images/nyc.png" alt= "friends-talking"/>
+       <img src="/images/nyc.png" alt= "nyc-sunset"/>
        </div>
 
        <div className="aboutpic2">
-       <img src="/images/geotag.png" alt= "friends-talking"/>
+       <img src="/images/geotag.png" alt= "find-me"/>
        </div>
 
 
        <div className="aboutpic3">
-       <img src="/images/dot.png" alt= "friends-talking"/>
+       <img src="/images/dot.png" alt= "pink-dot"/>
        </div>
 
        <div className="aboutpic4">
-       <img src="/images/dot.png" alt= "friends-talking"/>
+       <img src="/images/dot.png" alt= "pink-dotx2"/>
        </div>
 
   </div>
