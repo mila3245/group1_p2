@@ -2,6 +2,96 @@
 
 # Final Project
 
+Project Two:
+Team Members
+Natalie Bruce
+CuiRong Li
+Uzoamaka Metu
+Kamila Swiader
+
+Your Project Links
+Code Repo URL
+
+
+
+Project title: Dialearn
+
+Project Description
+Dialearn is a language-learning app that allows you to learn a language at your convenience and on the go. It will enable learning the preferred languages from anywhere and at any time. This way, the users can utilise their free time best as they are learning the language simply from their mobile devices and laptops. 
+Problem to solve. 
+⦁	People sometimes migrate/travel to other countries, sometimes without knowledge of the language of their host country.
+⦁	In academics, international students struggle with language, both in writing and speaking, yet they expect to achieve
+⦁	People seek to be proficient in a second language to enhance their opportunities.
+⦁	People seek a second language to expand their network
+
+Research: 
+Using language learning apps makes distance learning of language easy, free and practical. Learners have the opportunity to adjust the process according to their learning curve (Karasimos, 2022)
+
+User preferences
+⦁	It is faster than seeking a school to learn a language.
+⦁	It is economical in terms of fees to pay for learning a language 
+⦁	It is easy to navigate the words, spellings and pictures.
+⦁	Product information is easily identified in a set format.
+Our Goals and Motivation 
+Goals
+
+⦁	Get inspiration for Language learning.
+⦁	Know what users like most, words, pictures, spellings
+⦁	Get learning tips
+⦁	Subscribe to the app 
+Motivation
+⦁	Find the words for specific activities.
+⦁	Find the words to make a sentence and express themselves.
+⦁	A good place to post and share ideas on language learning experiences.
+⦁	Have a place to learn any language whenever and wherever they want.
+⦁	Reduce time-wasting and money by enrolling in a fixed language school
+
+Planning: Design
+User Stories
+As a <role>,	I want <feature>	so that <reason>.	<What does it inform>
+1 As a working professional and on the go,  I need to secure easy access to a web platform for words to use when in a country with a different language	I want to see words in other languages to express myself whenever I travel to any country for work.
+
+	Selectable categories are as follows:
+Overview, translations	HTML: Home
+
+JS: Info from third-party/APIs
+automation
+2 As a student in a new country where the language of instruction differs from mine.	I want to view a list of words and pictures to know what words to use. I want to be able to type words in my language and paste it into the translation. 
+
+	Ability to filter items according to:
+Translations in different languages
+	HTML: select categories
+
+JS: Language  API
+3. As a job seeker needing a second language to expand my chances	I want to learn the basics of a new language to apply to work for any company requiring my skill and to have a second language as a competitive advantage.	Word search	HTML: search button
+
+JS: React, API
+4. As a migrant navigating my way in a new country
+	I want to hit the ground running immediately and to learn as I go about my daily activities without spending time and money in a language school. 	Word search	HTML: Language translator API
+
+JS: conditional
+As a tourist on holiday in another country
+	I want to be able to add notes to each page so I can add my thoughts, experiences or things I want to remember about a particular country I have visited	Language Notes	HTML: form,
+feedback page
+
+JS: contact automation
+
+
+WireFrame Images
+ 
+Planning: Technology
+ 
+
+APIs to be Used:
+API #	API Base URL	Parameters	What is it?
+1			
+
+Project Reflection
+
+Leadership: We all led at different times during the project depending on the problem we were facing as we all have diverse experiences, so we utilised it.
+Work sharing: So we all chose different parts where we understood more to start with
+Team tools: Microsoft Teams (meeting), Trello, canvas, the Scrum approach, GitHub, Slack
+Technical Knowledge sharing: More communication and use of tutorials, video clips 
 ## Application Requirements
 
 You and your group will use everything you’ve learned to create a real-world client-side single-page application that you’ll be able to showcase to potential employers. The user story and acceptance criteria will depend on the project that you create, but your project must fulfill the following requirements:

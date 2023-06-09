@@ -18,7 +18,7 @@ export default {
     headers: {
       'content-type': 'application/x-www-form-urlencoded',
       'Accept-Encoding': 'application/gzip',
-      'X-RapidAPI-Key': '3e0b533a33msh1ad8f1b28f820f1p161af0jsn4493186216de',
+      'X-RapidAPI-Key': '748ef41770msh21877430af418f3p111863jsn8d168488458b',
       'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
     },
     data: encodedParams,
@@ -39,7 +39,7 @@ const options = {
   params: {target: 'en'},
   headers: {
     'Accept-Encoding': 'application/gzip',
-    'X-RapidAPI-Key': '3e0b533a33msh1ad8f1b28f820f1p161af0jsn4493186216de',
+    'X-RapidAPI-Key': '748ef41770msh21877430af418f3p111863jsn8d168488458b',
     'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
   }
 };
